@@ -9,6 +9,10 @@ public class Destroyer : MonoBehaviour
         string tag = col.gameObject.tag;
         if (tag == "Bird" || tag == "Enemy" || tag == "Obstacle")
         {
+            if (tag == "Enemy")
+            {
+                col.GetComponent<Enemy>().OnEnemyDestroyed(col.gameObject);
+            }
             Destroy(col.gameObject);
         }
     }

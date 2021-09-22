@@ -64,6 +64,7 @@
     <Compile Include="Assets\Script\Destroyer.cs" />
     <Compile Include="Assets\Script\Enemy.cs" />
     <Compile Include="Assets\Script\GameController.cs" />
+    <Compile Include="Assets\Script\OwlBird.cs" />
     <Compile Include="Assets\Script\SlingShooter.cs" />
     <Compile Include="Assets\Script\TrailController.cs" />
     <Compile Include="Assets\Script\YellowBird.cs" />
